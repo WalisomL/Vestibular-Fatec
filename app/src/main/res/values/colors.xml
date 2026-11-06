@@ -1,0 +1,7 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="fatec_red">#B20000</color>
+    <color name="fatec_dark">#212121</color>
+    <color name="fatec_light_gray">#F5F5F5</color>
+</resources>

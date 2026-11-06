@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fatec_light_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Vídeo de Apresentação (dsn.mp4) -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/black">
+            <VideoView
+                android:id="@+id/videoHeaderDsn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FATEC DIADEMA"
+                android:textColor="@color/fatec_red"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desenvolvimento de Software Multiplataforma (DSM)"
+                android:textColor="@color/fatec_dark"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O que se estuda:\nO curso prepara profissionais para criar sistemas para dispositivos móveis (Android/iOS), sistemas web, redes locais e nuvem, aplicando engenharia de software e segurança da informação.\n\nDiferencial:\nObtenção de 6 microcertificações (badges) e 3 certificações intermediárias durante o curso.\n\nMercado de Trabalho:\nForte demanda em empresas de tecnologia, startups, indústrias e órgãos públicos."
+                android:textColor="#555555"
+                android:textSize="16sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="24dp"/>
+
+            <Button
+                android:id="@+id/btnVestibular"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="INFORMAÇÕES DO VESTIBULAR"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/fatec_dark"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btnVideoInstitucional"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="ASSISTIR VÍDEO INSTITUCIONAL"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/fatec_red"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

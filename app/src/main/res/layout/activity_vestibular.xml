@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Vestibular FATEC"
+      android:textColor="@color/fatec_red"
+      android:textSize="26sp"
+      android:textStyle="bold"
+      android:layout_marginBottom="16dp"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Como funciona:\nA prova é composta por 60 questões de múltipla escolha e uma redação, com 5 horas de duração.\n\nSite Oficial:\nInscrições devem ser feitas exclusivamente pelo site: vestibularfatec.com.br\n\nDicas para o dia da prova:\n• Chegue com 1 hora de antecedência.\n• Leve caneta esferográfica de tinta preta ou azul.\n• É proibido o uso de relógios smartwatches, bonés e eletrônicos."
+      android:textColor="@color/fatec_dark"
+      android:textSize="16sp"
+      android:lineSpacingExtra="6dp"
+      android:layout_marginBottom="32dp"/>
+
+  <Button
+      android:id="@+id/btnVoltarVestibular"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:text="VOLTAR À PÁGINA INICIAL"
+      android:textColor="@color/white"
+      android:backgroundTint="@color/fatec_dark" />
+</LinearLayout>
